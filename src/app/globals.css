@@ -78,17 +78,34 @@ body {
   color:#505F98;
 }
 
-section-image{
+.section-image{
   height:60%;
   display: flex;
   flex:1;
 
 }
 
-section-height{
-  height:400px;
-  width:400px;
+.section-height{
+  height:300px;
+  width:300px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+.price-section{
+  background-image: url("../assetes/img/bg-price.jpg");
+   background-position: left right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height:500px;
+}
+
+.text-kit-color{
+  color:#37447E;
 }
