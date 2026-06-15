@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <nav className="shadow">
+    <nav >
       <Container>
         <div className="flex items-center justify-between py-2 top-menu">
           <div className="flex gap-10">

@@ -19,7 +19,7 @@ function TextSectionFour() {
           <div className="flex flex-col">
             <IntroSectionText />
             <div>
-            <button className="px-8 py-2 text-white bg-button font-bold">
+            <button className="px-8 py-2 text-white bg-button font-bold cursor-pointer rounded-xs">
               Purchase Now
             </button>
           </div>

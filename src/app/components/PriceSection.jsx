@@ -3,9 +3,9 @@ import Container from './Container'
 
 function PriceSection() {
   return (
-    <div className="price-section h-auto ">
+    <div className="price-section h-auto pb-20">
       <Container>
-        <div className="flex  flex-col justify-center items-center mt-40  mb-32">
+        <div className="flex  flex-col justify-center items-center mt-25">
           <h3 className='font-bold text-3xl mb-8 hero-title'>A Price To Suit Everyone</h3>
           <p className='mb-10 w-5/12 text-center mx-auto hero-text'>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -17,8 +17,8 @@ function PriceSection() {
             <span className='text-sm text-kit-color font-semibold'>UI Design Kit</span>
           </div>
           <div className='flex flex-col text-center'>
-            <span className='hero-text text-sm mb-2'>See, One price. Simple.</span>
-            <button className="px-10 py-2 text-white bg-button font-bold">Purchase Now</button>
+            <span className='hero-text text-xs mb-2'>See, One price. Simple.</span>
+            <button className="px-10 py-2 text-white bg-button font-bold cursor-pointer">Purchase Now</button>
           </div>
         </div>
       </Container>

@@ -6,8 +6,17 @@ body {
   height:100%;
   width:100%;
   font-size: 14px;
+  font-family: Roboto;
+  font-weight: 300;
 }
 
+h1{
+  font-weight: 500;
+}
+
+p{
+  font-weight: 300;
+}
 .bg-button1{
   background: #111B47;
   padding: 8px 12px;
@@ -17,6 +26,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 400;
 }
 
 .logo{
@@ -51,6 +61,7 @@ body {
 .bg-button{
    background: #111B47;
    text-align: center;
+   border-radius: 3px;
 }
 
 .button-text-color{
@@ -66,10 +77,12 @@ body {
 }
 
 .section-icons{
-  display: block;
+  display: flex;
   width:40px;
   height:40px;
-  background: blue;
+  /* background: blue; */
+  align-items: center;
+  justify-content: center;
 }
 
 .section-icons-text{
@@ -79,9 +92,11 @@ body {
 }
 
 .section-image{
-  height:60%;
+  height:400px;
   display: flex;
   flex:1;
+  width:300px;
+  margin:0 5px;
 
 }
 
@@ -103,9 +118,29 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height:500px;
+  min-height:600px;
 }
 
 .text-kit-color{
   color:#37447E;
 }
+
+.footer-section{
+  width:100%;
+  background: #E7ECFF;
+}
+
+.footer-button{
+  width:150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#111B47 ;
+  color:#fff;
+  text-align: center;
+  padding: 3px 10px;
+  font-weight: 300;
+  font-size: 13px;
+ 
+}
+

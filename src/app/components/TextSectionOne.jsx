@@ -3,6 +3,7 @@ import Container from '../components/Container'
 import Image from 'next/image'
 import sectionOneImage from '../../assetes/img/1.png';
 import IntroSectionText from './IntroSectionText';
+import IconImage from '../../assetes/img/Lefticon.png'
 
 function TextSectionOne() {
   return (
@@ -13,7 +14,9 @@ function TextSectionOne() {
             <IntroSectionText />
             <div className="flex w-10/12 justify-between">
               <div className="mr-6">
-                <i className="mb-4 section-icons p-1 text-white">icon</i>
+                <i className="mb-4 section-icons p-1 text-white">
+                  <Image src={IconImage} alt="icon-image"/>
+                </i>
                 <h5 className="hero-title mb-3 font-bold">Title Goes Here</h5>
                 <p className="section-icons-text ">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
@@ -21,7 +24,9 @@ function TextSectionOne() {
                 </p>
               </div>
               <div>
-                <i className="mb-4 section-icons p-1 text-white">icon</i>
+                <i className="mb-4 section-icons p-1 text-white">
+                  <Image src={IconImage} alt="icon-image"/>
+                </i>
                 <h5 className="hero-title mb-3 font-bold">Title Goes Here</h5>
                 <p className="section-icons-text ">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
