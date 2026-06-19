@@ -17,53 +17,79 @@ import {
 
 function Footer() {
   return (
-    <div className=" h-50 flex justify-center items-center footer-section">
-      <Container>
-        <div>
-          <div className="grid grid-cols-3  gap-4 justify-between py-5 items-center">
-            <p className="text-sm text-gray-500 ">©2023 Yourcompany</p>
-            <h2 className="text-center text-3xl font-bold  logo">
-              <Image src={Logo} alt='my-logo' />
-            </h2>
-            <button className="footer-button  text-sm absolute right-14 cursor-pointer font-semibold text-white rounded-xs">
-              Purchase now
-            </button>
-          </div>
-          <div className="border-b-2 border-slate-300"></div>
-          <div className="flex justify-between items-center py-5">
-            <nav className="flex top-menu hero-text">
-              <Link href="/" className="mr-10 text-xs">
-                Home
-              </Link>
-              <Link href="/" className="mr-10 text-xs">
-                About
-              </Link>
-              <Link href="/" className="mr-10 text-xs">
-                Contact
-              </Link>
-            </nav>
-            <div className="flex justify-center items-center text-xs">
-              <Link href="/" className="mr-5 text-gray-500">
-                 <FontAwesomeIcon icon={faFacebook} />
-              </Link>
-               
-              <Link href="/" className="mr-5  text-gray-500">
-                 <FontAwesomeIcon icon={faLinkedin} />
-              </Link>
-              <Link href="/" className="mr-5  text-gray-500 ">
-                 <FontAwesomeIcon icon={faTwitter} />
-              </Link>
-              <Link href="/" className="mr-5  text-gray-500">
-                 <FontAwesomeIcon icon={faYoutube} />
-              </Link>
-              <Link href="/" className=" text-gray-500">
-                 <FontAwesomeIcon icon={faInstagram} />
-              </Link>
-            </div>
-          </div>
+    <div className="footer-section py-8 md:py-12">
+  <Container>
+    <div>
+      {/* Top Footer */}
+      <div
+        className=" flex flex-col md:grid md:grid-cols-3 gap-6 items-center py-5">
+        <p className="text-sm text-gray-500 text-center md:text-left">
+          ©2023 Yourcompany
+        </p>
+
+        <div className="flex justify-center">
+          <Image src={Logo} alt="my-logo" />
         </div>
-      </Container>
+
+        <div className="flex justify-center md:justify-end">
+          <Link href="/login">
+            <button
+              className="footer-button px-6 py-2 text-sm font-semibold text-white rounded-md cursor-pointer ">
+              Purchase Now
+            </button>
+          </Link>
+        </div>
+      </div>
+
+      {/* Divider */}
+      <div className="border-b border-slate-300"></div>
+
+      {/* Bottom Footer */}
+      <div
+        className=" flex flex-col md:flex-row justify-between items-center gap-6 py-5 " >
+        {/* Menu */}
+        <nav
+          className=" flex flex-col sm:flex-row items-center gap-4 hero-text" >
+          <Link href="/" className="text-xs">
+            Home
+          </Link>
+
+          <Link href="/" className="text-xs">
+            About
+          </Link>
+
+          <Link href="/" className="text-xs">
+            Contact
+          </Link>
+        </nav>
+
+        {/* Social Icons */}
+        <div
+          className=" flex justify-center items-center gap-5 text-xs ">
+          <Link href="/" className="text-gray-500">
+            <FontAwesomeIcon icon={faFacebook} />
+          </Link>
+
+          <Link href="/" className="text-gray-500">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </Link>
+
+          <Link href="/" className="text-gray-500">
+            <FontAwesomeIcon icon={faTwitter} />
+          </Link>
+
+          <Link href="/" className="text-gray-500">
+            <FontAwesomeIcon icon={faYoutube} />
+          </Link>
+
+          <Link href="/" className="text-gray-500">
+            <FontAwesomeIcon icon={faInstagram} />
+          </Link>
+        </div>
+      </div>
     </div>
+  </Container>
+</div>
   );
 }
 
