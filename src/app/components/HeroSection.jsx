@@ -12,7 +12,7 @@ function HeroSection() {
           <h1 className="font-extrabold md:text-5xl mb-6  w-full md:w-9/12  hero-title">
             Introduce Your Product Quickly & Effectively
           </h1>
-          <p className=" w-full  md:w-9/12 mb-8   md:mb-12 leading-7" >
+          <p className=" w-full  md:w-9/12 mb-8   md:mb-12 leading-7 hero-text" >
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
             penatibus et magnis dis parturient montes, nascetur ridiculus mus.

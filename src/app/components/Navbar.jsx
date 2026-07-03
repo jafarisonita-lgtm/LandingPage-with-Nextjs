@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav>
       <Container>
 
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-4 ">
 
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-10 menu-text-color">
