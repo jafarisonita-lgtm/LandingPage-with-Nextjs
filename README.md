@@ -60,10 +60,10 @@ docs/
 
 ## Live Demo
 
-https://your-project.vercel.app
+https://landing-page-with-nextjs-two.vercel.app/
 
 ## Author
 
 GitHub:
-https://github.com/YourUsername
+https://github.com/jafarisonita-lgtm
 
